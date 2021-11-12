@@ -91,6 +91,7 @@ else:
             'USER': env.get('PSQL_USERNAME'),
             'PASSWORD': env.get('PSQL_PASS'),
             'HOST': env.get('PSQL_HOST'),
+            "ALLOWED_HOST": ['104.237.129.63'],
             'PORT': env.get('PSQL_PORT'), # 'PORT': 5432
         }
     }
